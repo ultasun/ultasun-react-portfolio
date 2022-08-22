@@ -52,7 +52,9 @@ export default function() {
 		    also be found on this site.
 		</p>
 		<p>
-		    Download my resume!
+		    <a href="https://ultasun.github.io/ultasun-resume.pdf">
+			Download my resume!
+		    </a>
 		</p>
 		<p>
 		    Thank you for visiting!
