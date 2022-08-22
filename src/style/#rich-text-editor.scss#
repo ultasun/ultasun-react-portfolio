@@ -1,0 +1,22 @@
+.DraftEditor-root {
+    border: 1px solid rgb(98, 188, 209);
+    padding: 20px;
+    border-radius: 3px;
+}
+
+// this is a good example of when it is necessary to use negative values.
+
+.rdw-image-modal {
+    left: -215px;
+
+.rdw-emoji-modal {
+    left: -169px;
+//    left: -215px;
+}
+
+.rdw-embedded-modal {
+    left: -125px;
+//    left: -124px;
+}
+
+

@@ -1,0 +1,21 @@
+{/* {true ? 'do if true' : 'do if false'} */}
+
+Portfolio artifact "category" strings are defined in:
+      * portfolio-container.js
+      * portfolio-form.js
+      	* many places!
+
+
+In portfolio-form.js
+   * Test PortfolioFormHelper.freshState() works
+   * Submit pull request at
+     http://ittyurli.bloom.us/a/yfoquu
+
+
+blog.scss
+	* has font-size for h1 and h2
+
+
+index.html
+	* finalize on a font
+	

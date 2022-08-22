@@ -1,0 +1,29 @@
+animated flipping: https://youtu.be/_K_WK8BSpRc
+
+drag and drop: https://youtu.be/iN3o9u9J_54
+
+https://youtu.be/tYVPOcx3cSU
+
+building a dynamic layout in react: https://youtu.be/RXLYkKKC948
+
+hooks: https://youtu.be/2VmvONbjDNU
+
+qr codes: https://youtu.be/jhmA3_GDPzI
+
+how to call and render API data in react: https://youtu.be/3_f5ssj-pm8
+
+mouse hooks: https://youtu.be/TZw0EAjcH7o
+
+website animations in SCSS: https://youtu.be/OtMT3PRfVZI
+
+react context: https://youtu.be/8jqRLO9R0HM
+
+CSS3/HTML5 animations: https://youtu.be/hCjG2jKxo4g
+
+sliding panels in react: https://youtu.be/kB26MHCTg_s
+
+creating a dark theme style generator: https://youtu.be/JYoKbnQav2s
+
+build animated components that render on click: https://youtu.be/9-R8RZjUJ10
+
+
