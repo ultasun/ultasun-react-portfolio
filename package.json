@@ -2,6 +2,9 @@
     "name": "ultasun-react-portfolio",
     "version": "1.1.1",
     "description": "A portfolio application to showcase software artifacts produced before, during, and after the Bottega Full Stack Developer with React coding bootcamp, under the supervision of Jordan Hudgens @jordanhudgens.",
+    "engines": {
+	"node": "16.x"
+    },
     "scripts": {
         "greet": "",
         "postinstall": "echo Welcome to the portfolio!",
