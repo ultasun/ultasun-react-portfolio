@@ -68,7 +68,9 @@ const NavigationComponent = props => {
 		 : null}
 	    </div>
 	    <div className='right-side'>
-		JAMES A CAPOZZOLI
+		<a href="https://github.com/ultasun">
+		    JAMES A CAPOZZOLI
+		</a>
 
 		{props.loggedInStatus === 'LOGGED_IN'
 		 ?

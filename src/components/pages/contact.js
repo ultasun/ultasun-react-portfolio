@@ -29,8 +29,19 @@ export default function() {
 			<a href="https://support.apple.com/messages">
 			    iMessage
 			</a>
-		    </b>: &nbsp;ultasun
-		    <FontAwesomeIcon icon='at' />icloud.com
+		    </b>:
+		    <div
+			style={{
+			    marginTop: "10px",
+			    padding: "10px",
+			    paddingLeft: "36px",
+			    color: "maroon",
+			    background: "gold"
+			}}>
+			ultasun
+			<FontAwesomeIcon icon='at' />
+			icloud.com
+		    </div>
 		</p>
 		<p>
 		    <b>
@@ -48,6 +59,12 @@ export default function() {
 			Libera
 		    </a>
 		    .
+		</p>
+		<p>
+		    <FontAwesomeIcon icon='door-open' />&nbsp;
+		    <a href="https://linkedin.com/in/ultasun/">
+			LinkedIn
+		    </a>
 		</p>
 	    </div>
 	</div>
