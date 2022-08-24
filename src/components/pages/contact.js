@@ -16,8 +16,11 @@ export default function() {
 		     backgroundPosition: "center"
 		 }}>
 	    </div>
-	    <div className='right-column'>
-		<p>Schedule a meeting by reaching out:</p>
+	    <div className='right-column'
+		 style={{
+		     textAlign: "center"
+		 }}>
+		<h3>Reach out to schedule a meeting, or ask me anything!</h3>
 		<p>
 		    <b>
 			<FontAwesomeIcon icon='envelope' />
@@ -53,10 +56,12 @@ export default function() {
 		    </b>
 		    :&nbsp;Send me a direct message,&nbsp;
 		    <i>
-			ultasun
+			<b>
+			    ultasun
+			</b>
 		    </i> on&nbsp;
 		    <a href="https://libera.chat/">
-			Libera
+			Libera.Chat
 		    </a>
 		    .
 		</p>
