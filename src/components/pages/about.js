@@ -69,6 +69,7 @@ export default function() {
 		    I would be delighted to consider your project!
 		</p>
 	    </div>
+	    <img className="mobile-view-image-extra" src={leftSideImage} />
 	</div>
     );
 }

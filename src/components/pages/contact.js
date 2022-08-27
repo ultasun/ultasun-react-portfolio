@@ -72,6 +72,7 @@ export default function() {
 		    </a>
 		</p>
 	    </div>
+	    <img className="mobile-view-image-extra" src={leftSideImage} />
 	</div>
     );
 }

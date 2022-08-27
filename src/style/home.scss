@@ -1,3 +1,4 @@
+@media (min-width: 1280px) {
 .homepage-wrapper {
     display:grid;
     grid-template-columns: 1fr;
@@ -9,5 +10,13 @@
 	.btn {
 	    width: 100%;
 	}
+    }
+}
+}
+@media(max-width:1279px) {
+    .homepage-wrapper {
+	display: flex;
+	flex-direction: column;
+	
     }
 }
