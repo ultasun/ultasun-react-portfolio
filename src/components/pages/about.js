@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import leftSideImage from '../../../static/assets/images/about.jpg';
 
 export default function() {
@@ -60,9 +61,9 @@ export default function() {
 		    Thank you for visiting!
 		    I would be delighted to consider working with you,
 		    please&nbsp;
-		    <a href="/contact">
+		    <Link to="/contact">
 			reach out!
-		    </a>
+		    </Link>
 		</p>
 		<p>
 		    I would be delighted to consider your project!
