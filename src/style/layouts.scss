@@ -33,12 +33,18 @@
 		    }
 		}
 	    }
+
+	    .paragraph-content {
+		margin: 15px;
+	    }
 	}
     }
+    
     .mobile-view-image-extra {
 	display: none;
     }
 }
+
 @media (max-width: 1279px) {
     .content-page-wrapper {
 	display: flex;
@@ -54,6 +60,9 @@
 	    width: 100%;
 	    object-fit: cover;
 	    border-radius: 3px;
+	}
+	.paragraph-content {
+	    margin: 15px;
 	}
     }
 }

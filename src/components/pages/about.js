@@ -14,20 +14,31 @@ export default function() {
 		}}
 	    />
 	    <div className='right-column'>
-		<p><b>Hello there, my name is James!</b></p>
-		<p>The screen name I currently use for development is&nbsp;
+		<div className='paragraph-content'>
+		    <b>
+			Hello there, my name is James!
+		    </b>
+		</div>
+		<div className='paragraph-content'>
+		    Welcome to my portfolio website, here you can find some of
+		    the software artifacts I had built.
+		</div>
+		<div className='paragraph-content'>The screen name I currently
+		    use for development is&nbsp;
 		    <a href="https://github.com/ultasun">
 			ultasun
 		    </a> -- it means <i>beautiful sun</i>.
-		</p>
-		<p>My foremost hobbies are learning and self-improvement.
+		</div>
+		<div className='paragraph-content'>My foremost hobbies are
+		    learning and self-improvement.
 		    I believe education is a seed grown to a sproutling,
 		    but growth to a complete plant is an individual
 		    responsibility.
-		</p>
-		<p>Here are two of the schools I had attended since
+		</div>
+		<div className='paragraph-content'>
+		    Here are two of the schools I had attended since
 		    graduating highschool in 2009:
-		</p>
+		</div>
 		<ul>
 		    <li>
 			<a href="https://bloomu.edu">
@@ -46,28 +57,28 @@ export default function() {
 			</a>.
 		    </li>    
 		</ul>
-		<p>
+		<div className='paragraph-content'>
 		    On this website, you can find artifacts created during
 		    my time at these fine institutions.
 		    Other artifacts I had created in my free time may
 		    also be found on this site.
-		</p>
-		<p>
+		</div>
+		<div className='paragraph-content'>
 		    <a href="https://ultasun.github.io/ultasun-resume.pdf">
 			Download my resume!
 		    </a>
-		</p>
-		<p>
+		</div>
+		<div className='paragraph-content'>
 		    Thank you for visiting!
 		    I would be delighted to consider working with you,
 		    please&nbsp;
 		    <Link to="/contact">
 			reach out!
 		    </Link>
-		</p>
-		<p>
+		</div>
+		<div className='paragraph-content'>
 		    I would be delighted to consider your project!
-		</p>
+		</div>
 	    </div>
 	    <img className="mobile-view-image-extra" src={leftSideImage} />
 	</div>

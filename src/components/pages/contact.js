@@ -13,7 +13,7 @@ export default function() {
 		 style={{
 		     background: "url(" + leftSideImage + ") no-repeat",
 		     backgroundSize: "cover",
-		     backgroundPosition: "center"
+		     backgroundPosition: "top"
 		 }}>
 	    </div>
 	    <div className='right-column'
@@ -21,7 +21,7 @@ export default function() {
 		     textAlign: "center"
 		 }}>
 		<h3>Reach out to schedule a meeting, or ask me anything!</h3>
-		<p>
+		<div className='paragraph-content'>
 		    <b>
 			<FontAwesomeIcon icon='envelope' />
 			&nbsp;
@@ -37,16 +37,16 @@ export default function() {
 			style={{
 			    marginTop: "10px",
 			    padding: "10px",
-			    paddingLeft: "36px",
 			    color: "maroon",
-			    background: "gold"
+			    background: "gold",
+			    textAlign: "center"
 			}}>
 			ultasun
 			<FontAwesomeIcon icon='at' />
 			icloud.com
 		    </div>
-		</p>
-		<p>
+		</div>
+		<div className='paragraph-content'>
 		    <b>
 			<FontAwesomeIcon icon='comments' />
 			&nbsp;
@@ -64,13 +64,13 @@ export default function() {
 			Libera.Chat
 		    </a>
 		    .
-		</p>
-		<p>
+		</div>
+		<div className='paragraph-content'>
 		    <FontAwesomeIcon icon='door-open' />&nbsp;
 		    <a href="https://linkedin.com/in/ultasun/">
 			LinkedIn
 		    </a>
-		</p>
+		</div>
 	    </div>
 	    <img className="mobile-view-image-extra" src={leftSideImage} />
 	</div>
